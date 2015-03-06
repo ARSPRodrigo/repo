@@ -359,3 +359,28 @@ h2.subcaption {
     padding: 5px;
     font-size: 14px;
 }
+
+/* Change the anchor tag colors — Prasanna Rodrigo */
+a{
+   text-decoration: none; 
+}
+
+/* unvisited link */
+a:link {
+    color: #4379A5;
+}
+
+/* visited link */
+a:visited {
+    color: #000055;
+}
+
+/* mouse over link */
+a:hover {
+    color: #e07518;
+}
+
+/* selected link */
+a:active {
+    color: #437911;
+}
