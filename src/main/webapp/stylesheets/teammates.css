@@ -123,6 +123,8 @@ h2 {
 #loginHolder {
     float: right;
     width: 300px;
+    background-color: black;
+    height: 60px;
 }
 
 #navbar {
@@ -131,6 +133,7 @@ h2 {
    font-size: 14px;
    line-height: 60px;
    font-weight: bold;
+   background-color: black;
 }
 
 #navbar li {
@@ -139,6 +142,7 @@ h2 {
    list-style-type: none;
    padding-left: 20px;
    padding-right: 20px;
+   background-color: black;
 }
 
 #navbar li a {
@@ -154,11 +158,14 @@ h2 {
 }
 
 .current {
-   height: 78px;
+   height: 60px;
    background-image:url('../images/triangle.gif');
+   background-size: 18px 40px;
+   background-position: center 25px;
    background-repeat:no-repeat;
-   background-position:center;
+   /*background-position:center;*/
    overflow: hidden;
+   background-color: black !important;
 }
 
 .bold {
